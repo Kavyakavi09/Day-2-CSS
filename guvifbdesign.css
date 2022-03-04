@@ -23,10 +23,7 @@ body{
     background-color: transparent;
     flex-wrap: wrap;
     
-    
-   
-
-}
+    }
 
 #first-flex{
 
@@ -167,6 +164,8 @@ body{
        flex-direction: row;
        align-items: center;
        border-bottom: 1px solid rgb(63, 63, 68);
+       position: relative;
+       left:50px;
      
       
       }
@@ -259,7 +258,7 @@ body{
         gap: 10px;
         flex-direction: row;
         justify-content: flex-end;
-        margin-right: 130px;
+        margin-right: 140px;
         position: relative;
         top: 6px;
         left:13px;
@@ -278,11 +277,9 @@ body{
         justify-content: center;
         height: 100%;
         padding: 10px;
-        background-color:rgb(36, 32, 32);
         flex-wrap: wrap;
         gap:200px;
-       
-        font-family:sans-serif;
+       font-family:sans-serif;
         
     }
 
@@ -293,12 +290,8 @@ body{
         justify-content: flex-start;
         gap:30px;
         color: #a59ca1;
-       
-      
-       
-       
-        
-    }
+        cursor: pointer;
+        }
 
     .like{
         display: flex;
@@ -363,13 +356,13 @@ body{
          flex-direction: row;
          justify-content: center;
          padding: 10px;
-        background-color:rgb(36, 32, 32);
-        gap:20px;
-        font-family:sans-serif;
-        border: 0;
-        width:100%;
-        height:100%;
-        flex-wrap: wrap;
+         background-color: transparent;
+          gap:20px;
+         font-family:sans-serif;
+         border: 0;
+         width:100%;
+         height:100%;
+         flex-wrap: wrap;
         
         
 
@@ -379,13 +372,14 @@ body{
          display: flex;
          flex-direction: row;
          justify-content: center;
-         gap:140px;
+         gap:200px;
          border:0;
          border-radius: 5px;
          flex-wrap: wrap;
-         width:20%;
+         width:22%;
          padding: 10px;
          background-color:#2d2e33;
+         height: 450px;
          
 
          
@@ -404,7 +398,7 @@ body{
         font-size:15px;
         color: dodgerblue;
         position: relative;
-        left:30px;
+        left:10px;
      }
 
      #post{
@@ -413,15 +407,15 @@ body{
          justify-content: center;
          gap: 10px;
          border:0;
-         width:35%;
+         width:32%;
          height:100px;
          flex-wrap: wrap;
          background-color:#2d2e33;
          border-radius: 5px;
+         padding-top:15px;
+         padding-bottom:15px;
          
-      
-         
-             }
+     }
              #post_button{
                 padding: 10px;;
                 border:0;
@@ -445,8 +439,7 @@ body{
 
              #About_items{
                 position: relative;
-                bottom:130px;
-                padding-left: 10px;
+                bottom:180px;
                 font-family:sans-serif;
                 font-weight: 300;
                 color: #d8ccd2;
